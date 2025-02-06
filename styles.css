@@ -42,6 +42,21 @@ section {
     margin: auto;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
 .experience-container, .projects-grid, .certifications-grid, .skills-grid, .contact-container {
     display: flex;
     justify-content: center;
@@ -49,7 +64,7 @@ section {
     gap: 20px;
 }
 
-.experience-container, .project-container, .certification-container, .skill-container {
+.project-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,7 +72,7 @@ section {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 500px;
+    width: 300px;
 }
 
 .company-logo img, .project-image img, .certification-image img, .skill-image img {
