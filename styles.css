@@ -2,42 +2,56 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center;
 }
 header {
     background: #333;
     color: #fff;
     padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 section {
-    padding: 20px;
+    padding: 100px 20px;
     max-width: 800px;
     margin: auto;
 }
-.project {
-    background: #fff;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.section-container {
+    padding-top: 60px;
+}
+.landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 footer {
     background: #333;
     color: #fff;
+    text-align: center;
     padding: 10px;
     position: relative;
     bottom: 0;
