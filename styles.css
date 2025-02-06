@@ -34,18 +34,51 @@ section {
     text-align: center;
 }
 
-#home {
-    background: #444;
-    color: white;
-    padding: 100px 20px;
+.experience-container, .projects-grid, .certifications-grid, .skills-grid, .contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-#about, #experience, #projects, #skills, #contact {
+.experience-container, .project-container, .certification-container, .skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: white;
-    margin: 20px auto;
-    width: 80%;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.company-logo img, .project-image img, .certification-image img, .skill-image img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project-details, .certification-details, .skill-name {
+    text-align: center;
+}
+
+.contact-container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 150px;
+}
+
+.contact-container a img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
 }
 
 footer {
