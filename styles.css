@@ -34,6 +34,14 @@ section {
     text-align: center;
 }
 
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
 .experience-container, .projects-grid, .certifications-grid, .skills-grid, .contact-container {
     display: flex;
     justify-content: center;
