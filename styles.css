@@ -34,14 +34,6 @@ section {
     text-align: center;
 }
 
-.experience-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin: auto;
-}
-
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -50,18 +42,12 @@ section {
     margin: auto;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 100%;
-}
-
-.experience-container, .projects-grid, .certifications-grid, .skills-grid, .contact-container {
+.projects-row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    width: 100%;
 }
 
 .project-container {
@@ -72,17 +58,31 @@ section {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 30%;
+    min-width: 280px;
 }
 
-.company-logo img, .project-image img, .certification-image img, .skill-image img {
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-details {
+    text-align: center;
+}
+
+.company-logo img, .certification-image img, .skill-image img {
     width: 100px;
     height: auto;
     margin-bottom: 10px;
 }
 
-.project-details, .certification-details, .skill-name {
-    text-align: center;
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .contact-container a {
