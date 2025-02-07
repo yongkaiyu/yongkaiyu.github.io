@@ -111,10 +111,40 @@ section {
     text-align: center;
 }
 
-.company-logo img, .certification-image img, .skill-image img {
+.certification-image img, .skill-image img {
     width: 100px;
     height: auto;
     margin-bottom: 10px;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.certification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certification-image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.certification-details {
+    text-align: center;
 }
 
 .contact-container {
