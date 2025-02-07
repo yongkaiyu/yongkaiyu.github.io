@@ -6,6 +6,13 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<script>
+    document.getElementById("downloadPdf").addEventListener("click", function() {
+        window.location.href = "files/Resume.pdf"; // Ensure your PDF is stored in "files/" directory
+    });
+</script>
+
 <body>
     <header>
         <nav>
@@ -23,12 +30,13 @@
 
     <section id="home">
         <h1>Welcome to My Portfolio</h1>
-        <p>The only morality in a cruel world is chance</p>
+        <p>Explore my experiences and projects.</p>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
         <p>Hello! I am Kai Yu, I am an Year 2 undergraduate from Ngee Ann Polytechnic.</p>
+        <button id="downloadPdf">Download Portfolio</button>
     </section>
 
     <section id="experience">
