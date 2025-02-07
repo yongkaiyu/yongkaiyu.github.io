@@ -8,6 +8,12 @@ https://static.vecteezy.com/system/resources/previews/022/484/516/original/googl
 
 https://static.vecteezy.com/system/resources/previews/014/441/078/original/phone-call-icon-design-in-blue-circle-png.png
 
+https://miro.medium.com/v2/resize:fit:1200/1*w0u2TZpEp3WfKMrlL5jTSw.png
+
+https://www.liblogo.com/img-logo/no6273w13b-node-js-logo-what-does-it-take-to-support-node-js-esm-the-guild-blog.png
+
+![Pic for React](image.png)
+
 https://images.vexels.com/media/users/3/166383/isolated/preview/6024bc5746d7436c727825dc4fc23c22-html-programming-language-icon.png
 
 https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png
