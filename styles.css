@@ -34,6 +34,41 @@ section {
     text-align: center;
 }
 
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: auto;
+}
+
+.company-logo img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.experience-details {
+    text-align: left;
+    max-width: 500px;
+}
+
+.experience-details h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.experience-details p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .projects-container {
     display: flex;
     flex-direction: column;
